@@ -1,0 +1,58 @@
+
+#profilimg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#profilimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    object-fit: cover;
+}
+.userImg{
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 1);    
+}
+.hover{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.hover:hover{
+    background-color:  rgb(191, 6, 191);
+    transform: scale(1.1);
+    color: #fff;
+    transition: 1.5s linear;
+    
+}
+.ex-contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.with{
+    width: 150%;
+    margin-left: -20%;
+}
+.internName{
+    width: 60%;
+    height: 40px;
+}
+.interndata{
+    margin-top: -20px;
+}
+.in-textDt{
+    display: flex;
+    flex-direction: column;
+}
+
+.intern-item{
+    background-color: #fff;
+    color: #000 !important;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
